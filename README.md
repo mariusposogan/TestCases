@@ -57,7 +57,7 @@ User: alexandru@email.com  &  Pass: parola123
 *********************************
 
 **Description:**
-Check if Forgot Password funcionality works as expected and an email with reset password link is sent.
+Check if Forgot Password functionality works as expected and an email with reset password link is sent.
 
 **Steps to Reproduce:**
 1. Go to www.onlinestore.com/login
@@ -66,7 +66,7 @@ Check if Forgot Password funcionality works as expected and an email with reset 
 4. Press "Recover" button
 
 **Expected result:**
-User should should receive an email with a reset password link. That link should allow the user to create a new password.
+User should receive an email with a reset password link. That link should allow the user to create a new password.
 
 **Test data**
 User: alexsmith@email.com
