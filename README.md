@@ -86,7 +86,7 @@ Check attempt to login with a valid email and invalid password.
 4. Press Login Button
 
 **Expected result:**
-An Error stating that "Email/Password is incorrect" should appear.
+An error message stating that "Email/Password is incorrect" should appear.
 
 **Test data**
 User: alexsmith@email.com  &  Password: wrong123
@@ -103,7 +103,7 @@ Check attempt to login with an unregistered email.
 4. Press Login Button
 
 **Expected result:**
-An Error stating that "Email/Password is incorrect" should appear.
+An message stating that Email is not registered should appear with a link to invide the user to register a new account.
 
 **Test data**
 User: aaaaaaa@email.com  &  Password: abc123
@@ -117,6 +117,6 @@ Check attempt to login with all fields blank.
 1. Press Login Button
 
 **Expected result:**
-An Error should appear in the Email and Password fields stating that the Email and Password fields must not be empty
+An error message should appear in the Email and Password fields stating that the Email and Password fields must not be empty
 
 *********************************
