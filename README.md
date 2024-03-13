@@ -4,33 +4,34 @@ Below are some Test Case samples that I wrote while working on previous projects
 
 *********************************
 
-**Description:**
-Check if the Login works when a person uses correct credentials
+**Test case Scenario:**
+Validate/Check login functionality using valid credentials 
 
-**Steps to Reproduce:**
-1. Go to www.onlinestore.com/login
-2. Add correct user & password
+**Test Steps:**
+1. Input valid username in username field
+2. Input valid password in password field
 3. Press Login Button
 
 **Expected result:**
-User should be able to login and is taken to her profile page.
+User is redirected to account page.
 
 **Test data**
 User: alexandru  &  Pass: parola123
 
 *********************************
 
-**Description:**
+**Test case Scenario:**
 Verify if the login form works when rotating the screen during logging in.
 
-**Steps to Reproduce:**
+**Test Steps:**
 1. Go to www.onlinestore.com/login
-2. Add correct user & password
-3. Rotate the device screen from landscape to portrait mode and portrait to landscape
-4. Press Login Button
+2. Input valid username in username field
+3. Input valid password in password field
+4. Rotate the device screen from landscape to portrait mode and portrait to landscape
+5. Press Login Button
 
 **Expected result:**
-Application should rotates normally and fields should still be filled with previously entered data.
+Application should rotate normally and fields should still be filled with previously entered data.
 After Login Button is pressed the user should be logged in successfully.
 
 **Test data**
@@ -38,13 +39,13 @@ User: alexandru  &  Pass: parola123
 
 *********************************
 
-**Description:**
+**Test case Scenario:**
 Verify that the SHOW/HIDE button works.
 
-**Steps to Reproduce:**
+**Test Steps:**
 1. Go to www.onlinestore.com/login
-2. Enter an email address
-3. Enter a password
+2. Input username in username field
+3. Input password in password field
 4. Click on "SHOW"
 5. Click on "HIDE"
 
@@ -56,13 +57,13 @@ User: alexandru@email.com  &  Pass: parola123
 
 *********************************
 
-**Description:**
+**Test case Scenario:**
 Check if Forgot Password functionality works as expected and an email with reset password link is sent.
 
-**Steps to Reproduce:**
+**Test Steps:**
 1. Go to www.onlinestore.com/login
 2. Press "Forgot Password" Button
-3. Add an email address
+2. Input valid email in the email field
 4. Press "Recover" button
 
 **Expected result:**
@@ -76,13 +77,13 @@ Please check the login again after running this test case.
 
 *********************************
 
-**Description:**
+**Test case Scenario:**
 Check attempt to login with a valid email and invalid password.
 
-**Steps to Reproduce:**
+**Test Steps:**
 1. Go to www.onlinestore.com/login
-2. Enter a valid email
-3. Enter an invalid password
+2. Input valid username in username field
+3. Input ivvalid password in password field
 4. Press Login Button
 
 **Expected result:**
@@ -93,13 +94,13 @@ User: alexsmith@email.com  &  Password: wrong123
 
 *********************************
 
-**Description:**
+**Test case Scenario:**
 Check attempt to login with an unregistered email.
 
-**Steps to Reproduce:**
+**Test Steps:**
 1. Go to www.onlinestore.com/login
-2. Enter an unregistered email
-3. Enter a password
+2. Input an unregistered username in username field
+3. Input a password in password field
 4. Press Login Button
 
 **Expected result:**
@@ -110,10 +111,10 @@ User: aaaaaaa@email.com  &  Password: abc123
 
 *********************************
 
-**Description:**
+**Test case Scenario:**
 Check attempt to login with all fields blank.
 
-**Steps to Reproduce:**
+**Test Steps:**
 1. Press Login Button
 
 **Expected result:**
